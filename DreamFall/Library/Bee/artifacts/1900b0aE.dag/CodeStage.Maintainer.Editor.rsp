@@ -1,0 +1,550 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/CodeStage.Maintainer.Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/CodeStage.Maintainer.Editor.ref.dll"
+-define:UNITY_2022_3_21
+-define:UNITY_2022_3
+-define:UNITY_2022
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION
+-define:ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT
+-define:ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"E:/unity/Unity 2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"E:/unity/Unity 2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"E:/unity/Unity 2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/AssemblyInfo.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Common/Tools/CSColorTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Common/Tools/CSEditorIcons.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Common/Tools/CSFileTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Common/Tools/CSTextureLoader.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Extension/ExtensibleModule.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Extension/IMaintainerExtension.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Extension/MaintainerExtension.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Filtering/FilterItem.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/AssetInfo.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/AssetReferenceInfo.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/AssetsMap.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/AssetDependenciesSearcher.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/Abstract/DependenciesParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/AddressableAssetGroupParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/AssemblyDefinitionParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/AssemblyDefinitionReferenceParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/Interfaces/IDependenciesParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/SettingsParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/ShaderParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/SpriteAtlasParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/Dependencies/Parsers/TextAssetParser.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/ReferencedAtAssetInfo.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/ReferencedAtInfo.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/ReferencedAtOpenedSceneInfo.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Map/ReferencingEntryData.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/IAssetBeginScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/IAssetEndScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/IComponentBeginScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/IComponentEndScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/IGameObjectBeginScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/IGameObjectEndScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/IPropertyScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/IScanListenerResult.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/ISceneBeginScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/Interfaces/ISceneEndScanListener.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Listeners/ScanListenerResults.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Location.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/LocationGroup.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Scanners/Interfaces/IPropertyScanner.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/Scan/Scanners/UnityEventScanner.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/TreeDataModel/TreeItem.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/TreeDataModel/TreeItemUtility.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Core/TreeDataModel/TreeModel.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Maintainer.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/MaintainerMarker.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Cleaner/BuildReportAnalyzer.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Cleaner/CleanerSortingType.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Cleaner/ProjectCleaner.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Cleaner/Records/AssetRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Cleaner/Records/CleanerErrorRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Cleaner/Records/CleanerRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Cleaner/Records/CleanerWarningRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Cleaner/RecordType.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Common/Enums/SortingDirection.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Common/IShowableRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Common/Records/RecordBase.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Common/RecordsSortings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Common/ReportsBuilder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/DetectorInfo.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/DetectorResults.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Enums/DetectorKind.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/Abstract/IssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/DuplicateComponentDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/DuplicateLayersDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/HugePositionDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/InconsistentTerrainDataDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/InvalidLayerDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/InvalidSortingLayerDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/MissingComponentDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/MissingPrefabDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/MissingReferenceDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Implementation/ShaderErrorDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IAssetBeginIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IAssetEndIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IComponentBeginIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IComponentEndIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IGameObjectBeginIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IGameObjectEndIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IPropertyIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/ISceneBeginIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/ISceneEndIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/ISettingsAssetBeginIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/Interfaces/IUnityEventIssueDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Detectors/IssuesFinderDetectors.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Enums/IssueGroup.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Enums/IssueKind.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Enums/IssueSeverity.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Enums/IssuesSortingType.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/IssuesFinder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Records/Abstraction/AssetIssueRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Records/Abstraction/IssueRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Records/GameObjectIssueRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Records/SceneSettingsIssueRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Records/SettingsIssueRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Records/ShaderIssueRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Records/UnityObjectAssetIssueRecord.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Routines/IssuesFixer.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Routines/SettingsChecker.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Routines/TargetCollector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Routines/TargetProcessor.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/RecordsBased/Issues/Scanners/UnityEventIssuesScanner.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Conjunction/AssetConjunctions.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Conjunction/TreeConjunction.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Data/HierarchyReferenceItem.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Data/ProjectReferenceItem.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Entry/EntryAddSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Entry/EntryFinder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Entry/EntryGenerator.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Entry/HierarchyEntryFinder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Entry/Processors/GenericObjectProcessor.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Entry/Processors/ManualComponentProcessor.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Entry/ProjectEntryFinder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Entry/SceneSettingsProcessor.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/HierarchyScopeReferencesFinder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/ProjectScopeReferencesFinder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/ReferencesFinder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Modules/TreeBased/References/Routines/ProjectScopeReferencesTreeBuilder.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/SearchResultsStorage.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/IssuesFinderSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/ProjectCleanerSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/ProjectSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/ProjectSettings.Migration.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/ReferencesFinderSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/User/IssuesFinderPersonalSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/User/ProjectCleanerPersonalSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/User/ReferencesFinderPersonalSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Settings/User/UserSettings.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSArrayTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSAssetTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSComponentTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSEditorTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSFilterTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSMenuTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSObjectTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSPathTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSPrefabTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSReflectionTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSSceneTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSSelectionTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSSerializedPropertyTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSSettingsTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/CSTraverseTools.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/Tools/ManagedDuplicatesDetector.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/CleanerFiltersWindow.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/FiltersWindow.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/FilterType.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/IssuesFiltersWindow.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/ReferencesFiltersWindow.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/Tabs/Abstract/StringFiltersTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/Tabs/Abstract/TabBase.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/Tabs/ComponentFiltersTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/Tabs/PathFiltersTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Filters/Tabs/SceneFiltersTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/MaintainerMenu.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/MaintainerWindow.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/AboutTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/Abstractions/BaseTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/Abstractions/RecordsTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/Abstractions/TwoColumnsTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/IssuesFinder/IssuesTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/IssuesFinder/IssuesTab.LeftColumn.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ProjectCleaner/CleanerTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ProjectCleaner/CleanerTab.LeftColumn.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ReferencesFinder/ChildTabs/Project/ProjectExactReferencesListPanel.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ReferencesFinder/ChildTabs/Project/ProjectReferencesTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ReferencesFinder/ChildTabs/Project/ProjectReferencesTreePanel.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ReferencesFinder/ChildTabs/ReferencesChildTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ReferencesFinder/ChildTabs/Scene/HierarchyReferencesTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ReferencesFinder/ChildTabs/Scene/HierarchyReferencesTreePanel.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ReferencesFinder/ReferencesTab.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Tabs/ReferencesFinder/ReferencesTab.LeftColumn.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/ListTreeView.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/MaintainerMultiColumnHeader.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/MaintainerTreeView.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/References/ExactReferencesList.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/References/ExactReferencesListItem.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/References/HierarchyReferencesTreeView.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/References/HierarchyReferencesTreeViewItem.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/References/ProjectReferencesTreeView.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/TreeViews/References/ProjectReferencesTreeViewItem.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Utils/CSIcons.cs"
+"Assets/Plugins/CodeStage/Maintainer/Editor/Scripts/UI/Utils/UIHelpers.cs"
+-langversion:9.0
+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+
+
+
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/CodeStage.Maintainer.Editor.UnityAdditionalFile.txt"
