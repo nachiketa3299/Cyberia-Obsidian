@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recentFilesPaths:
+  - Assets/Scenes/SampleScene.unity
+  - "Assets/\u751F\u99D2\u30DF\u30EB/FBX/Run.fbx"
+  - "Assets/\u751F\u99D2\u30DF\u30EB/FBX/Run.anim"
+  - "Assets/\u751F\u99D2\u30DF\u30EB/FBX/Player.controller"
+  - "Assets/\u751F\u99D2\u30DF\u30EB/FBX/RunRoot.anim"
   - Assets/Scripts/Player.cs
