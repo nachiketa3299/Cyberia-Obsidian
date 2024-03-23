@@ -1,0 +1,41 @@
+﻿17:22:33.534 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+17:22:33.544 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+17:22:33.555 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+17:22:33.556 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+17:22:33.556 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+17:22:33.557 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 58979
+17:22:33.559 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:32 | ServerSocket-UnityServer : accepting, port: 58979
+17:22:42.318 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+17:22:42.320 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in C:\Users\82104\AppData\Roaming\RiderFlow. Trying to extract use guid...
+17:22:42.326 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+17:22:42.326 |I| Launcher                       | :1                             | Subscribing for events
+17:22:42.377 |I| Launcher                       | :1                             | Start running backend
+17:22:42.594 |E|                                | :1                             | System.AggregateException: One or more errors occurred. (String conversion error: Illegal byte sequence encounted in the input.) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.RuntimeAssembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.RuntimeAssembly.GetCodeBase (System.Reflection.Assembly a, System.Boolean escaped) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.RuntimeAssembly.get_CodeBase () [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at JetBrains.RiderFlow.Core.Autofac.ContainerUtils.IsInteresting (System.Reflection.Assembly assembly) [0x00000] in <5da2109b84514402870d8392e610056e>:0 
+  at JetBrains.RiderFlow.Core.Autofac.ContainerUtils.GetInterestingAssemblies () [0x00025] in <5da2109b84514402870d8392e610056e>:0 
+  at JetBrains.RiderFlow.Core.Launchers.ComponentContainer.Build (JetBrains.Lifetimes.Lifetime lifetime, System.Collections.Generic.Dictionary`2[TKey,TValue] componentsToBind) [0x00028] in <5da2109b84514402870d8392e610056e>:0 
+  at JetBrains.RiderFlow.Core.Launchers.Launcher+<>c__DisplayClass13_0.<RunInner>b__0 () [0x003c1] in <5da2109b84514402870d8392e610056e>:0 
+  at JetBrains.RiderFlow.Core.Launchers.Launcher.RunInner (JetBrains.RiderFlow.Core.Core.Protocol.IRiderFlowProtocolHost host) [0x000ae] in <5da2109b84514402870d8392e610056e>:0 
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.RuntimeAssembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.RuntimeAssembly.GetCodeBase (System.Reflection.Assembly a, System.Boolean escaped) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.RuntimeAssembly.get_CodeBase () [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at JetBrains.RiderFlow.Core.Autofac.ContainerUtils.IsInteresting (System.Reflection.Assembly assembly) [0x00000] in <5da2109b84514402870d8392e610056e>:0 
+  at JetBrains.RiderFlow.Core.Autofac.ContainerUtils.GetInterestingAssemblies () [0x00025] in <5da2109b84514402870d8392e610056e>:0 
+  at JetBrains.RiderFlow.Core.Launchers.ComponentContainer.Build (JetBrains.Lifetimes.Lifetime lifetime, System.Collections.Generic.Dictionary`2[TKey,TValue] componentsToBind) [0x00028] in <5da2109b84514402870d8392e610056e>:0 
+  at JetBrains.RiderFlow.Core.Launchers.Launcher+<>c__DisplayClass13_0.<RunInner>b__0 () [0x003c1] in <5da2109b84514402870d8392e610056e>:0 
+  at JetBrains.RiderFlow.Core.Launchers.Launcher.RunInner (JetBrains.RiderFlow.Core.Core.Protocol.IRiderFlowProtocolHost host) [0x000ae] in <5da2109b84514402870d8392e610056e>:0 <---
+
+17:23:26.419 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:32 | ServerSocket-UnityServer : accepted
+17:23:26.419 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:32 | ServerSocket-UnityServer : connected
+17:23:26.421 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:32 | RESUME :: state=AsyncProcessing

@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeStage.Maintainer.Editor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetBrains.Frontend.2022.2", "JetBrains.Frontend.2022.2.csproj", "{465f6f41-ae8c-ec02-1745-31d0835a0fd8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{04a76e03-2f9a-7ead-cd6e-189c9bff6293}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{4044a35d-5fef-0321-3cbd-47459566d98d}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetBrains.Frontend.2019.4", "JetBrains.Frontend.2019.4.csproj", "{94db6c90-8897-40f4-774c-e6c359cbf88d}"
@@ -24,6 +26,8 @@ Global
 		{1dc13b6c-9834-eaea-0393-73db8bba05f8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{465f6f41-ae8c-ec02-1745-31d0835a0fd8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{465f6f41-ae8c-ec02-1745-31d0835a0fd8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04a76e03-2f9a-7ead-cd6e-189c9bff6293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04a76e03-2f9a-7ead-cd6e-189c9bff6293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4044a35d-5fef-0321-3cbd-47459566d98d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4044a35d-5fef-0321-3cbd-47459566d98d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94db6c90-8897-40f4-774c-e6c359cbf88d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
